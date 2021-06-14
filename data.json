@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "HI",
+        "Hey",
+        "Comment va tu ?",
+        "Bonjour",
+        "Bonsoir",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, merci de m'avoir contacter",
+        "Heyy, comment je peux vous aider?",
+        "Bonjour!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "A toute", "au revoir"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["merci", "Thank you", "That's helpful", "merci beaucoup"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    }
+    ]
+}
